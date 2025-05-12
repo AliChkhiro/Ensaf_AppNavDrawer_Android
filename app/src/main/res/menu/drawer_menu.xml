@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_temperature"
+            android:icon="@drawable/ic_temperature"
+            android:title="Temperature Converter" />
+        <item
+            android:id="@+id/nav_clients"
+            android:icon="@drawable/ic_clients"
+            android:title="Client List" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/ic_calculator"
+            android:title="Calculator" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
